@@ -1,0 +1,35 @@
+.Main ul {
+  list-style: none;
+}
+
+.Main form {
+  height: 25em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Main form button:active {
+  background-color: green;
+}
+
+.Main button {
+  padding: 15px 0;
+  margin: 10px 0;
+}
+
+.Main .start {
+  padding: 20px 40px;
+}
+
+.Main .home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Main .category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
