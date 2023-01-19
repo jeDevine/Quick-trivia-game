@@ -93,12 +93,16 @@ const Main = () => {
             className="start"
             onClick={() => {
               setStart((prev) => !prev);
+              setNumber(0);
             }}
           >
             Start Game
           </button>
         </div>
       )}
+      <p>
+        Powered by <a href="https://the-trivia-api.com/">The Trivia API</a>
+      </p>
     </div>
   );
 };
